@@ -203,7 +203,6 @@ img {
   margin-bottom: 25px;
 }
 .overlay-social-icons {
-  gap: 16;
   display: flex;
   position: relative;
   top: 560px;
@@ -346,9 +345,8 @@ img {
   object-fit: cover;
 }
 .social-icons {
-  gap: 16;
   display: flex;
-  gap: 24px;
+  gap: 16px;
   justify-content: center;
 }
 .social-icons-item {
@@ -574,8 +572,11 @@ img {
   margin-left: 16px;
 }
 .footer-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   width: 264px;
-  font-weight: 500;
   color: var(--lightest-blue);
 }
 
@@ -1145,7 +1146,6 @@ img {
     flex-shrink: 0;
     flex-grow: 0;
     margin-right: 76px;
-    padding: 20px 0;
   }
   .contacts-link {
     font-size: 16px;
@@ -1238,7 +1238,7 @@ img {
     max-height: 312px;
   }
   .row {
-    align-items: baseline;
+    align-items: start;
   }
   .subscribe {
     margin-left: 80px;
