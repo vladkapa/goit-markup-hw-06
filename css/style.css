@@ -474,7 +474,6 @@ img {
 }
 .bottom-logo {
   display: inline-block;
-  margin-bottom: 16px;
   margin-right: auto;
 }
 .span-second {
@@ -494,7 +493,7 @@ img {
 .row {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   justify-content: flex-start;
   height: 100%;
   gap: 72px 0;
